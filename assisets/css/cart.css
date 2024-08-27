@@ -1,0 +1,32 @@
+.body{
+    background: rgba(255, 255, 255, 0);
+}
+
+.cart-section .cart h2::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    border-radius: 50px ;
+    height: 3px;
+    width: 78px;
+    background: red;
+}
+
+.main-section .section {
+    height: 100%;
+    width:100%;
+}
+.main-section .product-info{
+    border: solid rgba(128, 128, 128, 0.158);
+    margin: 0 5rem;
+}
+.main-section  .button .btn{
+    background: red;
+    color: white;
+}
+
+.main-section .button .btn:hover{
+    background: transparent;
+    color:red;
+    border-color: red;
+}
